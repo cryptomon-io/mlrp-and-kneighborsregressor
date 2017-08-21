@@ -33,8 +33,8 @@ A full tutorial for using the notebook interface is available [here](ipython_exa
 %env TZ=UTC
 
 # Cryptomon API credentials
-%env API_CLIENT_ID=EDQXxb1WyzY6B5BszBCjWUAvnp6NwZzX7TrFFpWSQqnWwTFdhd
-%env API_CLIENT_SECRET=cchwX9nfEuJtWB3zrDBR4Tcj8KHqE5jp
+%env API_CLIENT_ID=<API_CLIENT_ID>
+%env API_CLIENT_SECRET=<API_CLIENT_SECRET>
 
 %run ./main.py "K_NEIGHBORS_V1" "BITSTAMP" "BTC_USD" "ONE_HOUR" "NOW"
 
