@@ -14,9 +14,6 @@ from sklearn.preprocessing import StandardScaler
 #Used to perform CV
 from sklearn.cross_validation import KFold
 
-import mysql.connector
-from mysql.connector import MySQLConnection, Error
-
 import Utils
 from Utils import date_prev_day, date_range
 
